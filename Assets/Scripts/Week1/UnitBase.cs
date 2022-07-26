@@ -9,15 +9,19 @@ public class UnitBase : MonoBehaviour
     public int speed;
     private Rigidbody body;
 
-    // Start is called before the first frame update
-    void Start()
+
+
+    private void Awake()
     {
-        
+        body =GetComponent<Rigidbody>();
+    }
+    public virtual void TakeDamage(int damage)
+    {
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
+
 }
