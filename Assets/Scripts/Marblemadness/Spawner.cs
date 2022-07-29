@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 #pragma warning disable 649
-namespace Mark.Ballinger.GAM405
+namespace RMC.Mark.Ballinger.GAM405.Shared
 {
 	public class Spawner : MonoBehaviour
 	{

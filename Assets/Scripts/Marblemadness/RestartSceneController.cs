@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Mark.Ballinger.GAM405
+namespace RMC.Mark.Ballinger.GAM405.Shared
 {
     
     /// Press the Spacebar to restart the scene.

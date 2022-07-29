@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Mark.Ballinger.GAM405
+namespace RMC.Mark.Ballinger.GAM405.Shared
 {
     
     public class SoundManager : MonoBehaviour

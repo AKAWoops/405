@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Mark.Ballinger.GAM405
+namespace RMC.Mark.Ballinger.GAM405.Shared
 {
     public class Coin : MonoBehaviour
     {

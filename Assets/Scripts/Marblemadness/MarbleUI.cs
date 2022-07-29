@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Mark.Ballinger.GAM405
+namespace RMC.Mark.Ballinger.GAM405.Shared
 {
     public class MarbleUI : MonoBehaviour
     {
