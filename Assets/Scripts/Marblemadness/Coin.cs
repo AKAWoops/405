@@ -32,7 +32,7 @@ namespace SAE.Mark.Ballinger.GAM405.Shared
 
         private void DoTween_OnComplete()
         {
-            // Wait for animation to be complete then destroy
+            // Wait for animation to be complete then destroy could use animated images but cinemachine would be easier to rotate a 3d asset i decide to use 
             
             Destroy(gameObject);
         }

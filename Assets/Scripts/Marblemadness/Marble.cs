@@ -1,7 +1,7 @@
-using RMC.Mark.Ballinger.GAM405.Shared;
+using SAE.Mark.Ballinger.GAM405.Shared;
 using UnityEngine;
 
-namespace SAE.Mark.Ballinger.GAM405.Shared
+namespace Mark.Ballinger.GAM405.Shared
 {
 	public class Marble : MonoBehaviour
 	{
@@ -82,9 +82,9 @@ namespace SAE.Mark.Ballinger.GAM405.Shared
 					coin.DestroyMe();
 					MarbleGame.Instance.Score += MarbleConstants.PointsPerCoin;
 
-					//////////////////////////////////
-					//1. Play Sound
-					//////////////////////////////////
+					
+					//Play Sound
+					
 					SoundManager.Instance.PlayAudioClip(MarbleConstants.CoinSound);
 				}
 			}

@@ -63,7 +63,7 @@ namespace SAE.Mark.Ballinger.GAM405.Shared
 			}
 			
 
-			// Also spawn one immediatly
+			// Also spawn one immediately
 			if (_willSpawnImmediately)
 			{
 				Spawn();

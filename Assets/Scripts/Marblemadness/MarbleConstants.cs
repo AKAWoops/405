@@ -7,8 +7,8 @@ namespace SAE.Mark.Ballinger.GAM405.Shared
         // Sounds
         public const int CoinSound = 0;
         public const int CollisionSound = 1;
-        public const int LoseSound = 2;
-        public const int WinSound = 3;
+        public const int LoseSound = 2;//
+        public const int WinSound = 3;//will turn blue once the audio manager and sound assets are incorporated into the project
 
         // Tags / Layers
         public const string CoinTag = "Coin";
