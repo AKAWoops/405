@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
-#pragma warning disable 649
-namespace RMC.Mark.Ballinger.GAM405.Shared
+//this below command is to suppress the error message for not having anything set in fields or nothing added being an instance of an object for eg stops the message from hitting the console
+#pragma warning disable 649  
+namespace SAE.Mark.Ballinger.GAM405.Shared
 {
 	public class Spawner : MonoBehaviour
 	{
@@ -74,15 +74,14 @@ namespace RMC.Mark.Ballinger.GAM405.Shared
 		{
 			for (int i = 0; i < _spawnAmount; i++)
 			{
-				// Create an instance of the enemy prefab at the randomly 
-				// selected spawn point's position and rotation.
+				// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation. yet to be created will do over the next couple of weeks
 				GameObject spawned = Instantiate<GameObject>(_prefab);
 				spawned.transform.SetParent(_parent, true);
 				spawned.transform.position = _origin.position;
 
 				_spawnedObjects.Add(spawned);
 
-				// Systematically change starting position
+				// this code below goes through and Systematically changes the starting position for the Marble well sphere assets
 				if (_useOriginOffsetSystematic)
 				{
 					float x = _originOffsetSystematic.x * i;
@@ -127,7 +126,7 @@ namespace RMC.Mark.Ballinger.GAM405.Shared
 			{
 				for (int s = _spawnedObjects.Count - 1; s >= 0; s--)
 				{
-					// If sufficiently 'still', then delete to improve performance
+					// If the objects are completely 'still', delete to save on memeory resources this will improve performance dont want to happen what did with non destruct bullets ahaha
 					Rigidbody rigidBody = _spawnedObjects[s].GetComponent<Rigidbody>();
 					if (rigidBody != null)
 					{

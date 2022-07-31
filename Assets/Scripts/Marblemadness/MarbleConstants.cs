@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace RMC.Mark.Ballinger.GAM405.Shared
+namespace SAE.Mark.Ballinger.GAM405.Shared
 {
     public static class MarbleConstants
     {
