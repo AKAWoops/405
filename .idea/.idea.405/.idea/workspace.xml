@@ -12,6 +12,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/BallUserControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/LevelLoad.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,7 +86,7 @@
       <workItem from="1659087084969" duration="1175000" />
       <workItem from="1659092133439" duration="10099000" />
       <workItem from="1659237297268" duration="1488000" />
-      <workItem from="1660091352583" duration="5553000" />
+      <workItem from="1660091352583" duration="8269000" />
     </task>
     <servers />
   </component>
