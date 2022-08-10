@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
    	public static GameManager gm;
 
-	[Tooltip("If not set, the player will default to the gameObject tagged as Player.")]
+	// set, the player tage it will default to the gameObject in tags dont forget like i always do
 	public GameObject player;
 
 	public enum gameStates {Playing, Death, GameOver, BeatLevel};
@@ -21,13 +19,13 @@ public class GameManager : MonoBehaviour
 	public GameObject gameOverCanvas;
 	public Text gameOverScreenAndScoreDisplay;
 
-	[Tooltip("Only need to set if canBeatLevel is set to true.")]
+	// i can set canBeatLevel to true so you cant win lol
 	public GameObject beatLevelCanvas;
 
 	public AudioSource backgroundMusic;
 	public AudioClip gameOverSFX;
 
-	[Tooltip("Only need to set if canBeatLevel is set to true.")]
+	// needed if canBeatLevel is set to true other wise dont need it lmao got bored with tutorial
 	public AudioClip beatLevelSFX;
 
 	private Health playerHealth;
