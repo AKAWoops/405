@@ -20,6 +20,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/LevelToLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Points.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Rotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/DestroyByTimeExtended.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/EventTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/EventTriggerTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleRace/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -88,6 +93,8 @@
       <workItem from="1659092133439" duration="10099000" />
       <workItem from="1659237297268" duration="1488000" />
       <workItem from="1660091352583" duration="10560000" />
+      <workItem from="1660580819013" duration="1191000" />
+      <workItem from="1660631152393" duration="5129000" />
     </task>
     <servers />
   </component>
