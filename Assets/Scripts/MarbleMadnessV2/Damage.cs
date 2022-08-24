@@ -6,12 +6,12 @@ public class Damage : MonoBehaviour
 {
     public float damageAmount = 10.0f;
 
-    public bool damageOnTrigger = true;
-    public bool damageOnCollision = false;
+    public bool damageOnTrigger = false;
+    public bool damageOnCollision = true;
     public bool continuousDamage = false;
     public float continuousTimeBetweenHits = 0;
 
-    public bool destroySelfOnImpact = false; // variables dealing with exploding on impact (area of effect)
+    public bool destroySelfOnImpact = true; // variables dealing with exploding on impact (area of effect)
     public float delayBeforeDestroy = 0.0f;
     public GameObject explosionPrefab;
 

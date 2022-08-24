@@ -14,18 +14,21 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/BallUserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/EnemyChase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/LevelLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/LevelToLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Points.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Rotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/SpawnGameObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/DestroyByTimeExtended.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/EventTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/EventTriggerTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleMadnessV2/Unityengineevents/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MarbleRace/SpeedBoost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Week6/Week6objectpooling/PoolManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,6 +98,18 @@
       <workItem from="1660091352583" duration="10560000" />
       <workItem from="1660580819013" duration="1191000" />
       <workItem from="1660631152393" duration="5129000" />
+      <workItem from="1660663236208" duration="3599000" />
+      <workItem from="1660668296572" duration="170000" />
+      <workItem from="1660707838987" duration="4000" />
+      <workItem from="1660707864814" duration="2000" />
+      <workItem from="1660708607240" duration="596000" />
+      <workItem from="1660710455831" duration="335000" />
+      <workItem from="1660715208406" duration="37000" />
+      <workItem from="1660803075451" duration="48000" />
+      <workItem from="1660803143181" duration="3000" />
+      <workItem from="1660804683500" duration="1682000" />
+      <workItem from="1661231665231" duration="7659000" />
+      <workItem from="1661298749379" duration="2722000" />
     </task>
     <servers />
   </component>
