@@ -31,14 +31,14 @@ namespace SAE.MarkBallinger.GAM405
             {
                 Debug.LogWarning(
                     "Warning: no main camera found. Ball needs a Camera tagged \"MainCamera\", for camera-relative controls.");
-                // we use world-relative controls in this case, which may not be what the user wants, but hey, we warned them!
+                // relative controls 
             }
         }
 
 
         private void Update()
         {
-            // Get the axis and jump input.
+            // this gets the axis and jump input but wil not have jump set in serialized field not needed....
 
             float h = InputManager.GetAxis("Horizontal");
             float v = InputManager.GetAxis("Vertical");
@@ -53,7 +53,7 @@ namespace SAE.MarkBallinger.GAM405
             }
             else
             {
-                // we use world-relative directions in the case of no main camera
+                // world-relative directions in the case of no main camera
                 move = (v*Vector3.forward + h*Vector3.right).normalized;
             }
         }
